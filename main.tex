@@ -68,7 +68,7 @@ This study seeks to demonstrate the applicability and benefits of MBRT for STS o
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Consortium diagram.png}
-    \caption{Consortium diagram describing patient selection criteria. A total of 37 lower extremity STS patients were found in the time frame Dec. 2017 {\textendash} June 2021. Twenty one patients were finally selected for the planning study. Bolus was not used for any patients in their MBRT plans.}
+    \caption{Consortium diagram describing patient selection criteria. A total of 37 lower extremity STS patients were found in the time frame Dec. 2017 June 2021. Twenty one patients were finally selected for the planning study. Bolus was not used for any patients in their MBRT plans.}
     \label{fig:consortium}
 \end{figure}
 A retrospective cohort of STS patients was selected among patients treated at the XXXXX % censored institution name
@@ -76,26 +76,6 @@ between December 2017 and June 2021. All patients completed a 25-fraction photon
 Alto, CA). Only patients with lower extremity STS, without tumor extent above the groin region, were chosen. The consortium diagram (Fig. \ref{fig:consortium}) describes the selection criteria. Planning was performed on a 3 mm slice computed tomography (CT) scan of the patient in the treatment position. Patients were immobilized with a Vac-lok device. Magnetic Resonance Imaging studies were co-registered with CT images to aid the contouring of the gross tumour volume (GTV). For GTVs larger than 8 cm, the clinical target volume (CTV) is contoured with 1.5 cm axial margins and 3 cm cranial-caudal margins from the GTV. For smaller tumours, CTV axial margins of 1 cm and cranial-caudal margins of 2 cm were used. CTV contours did not include any intact bony structures. CTVs are cropped 5 mm from the skin ($n$=8). If full dose to the skin or subcutaneous tissue was required, CTVs were either not cropped when bolus was used (n=10), or cropped to 3 mm when bolus was not used ($n$=3). While following the same skin cropping rule as the CTV, the planning target volume (PTV) consisted of a 5 mm geometrical expansion from the CTV.\\
 Contoured OARs relevant for plan optimization included the following: normal tissue strip, bone, femur, joints, anus, skin, testes, and genitalia. The dose constraints to the OAR used during treatment planning are tabulated in Table \ref{tab:OARconstraints}. For consistency, the normal tissue strip OAR was uniformly re-contoured as the subtraction of the PTV and the bone contour from the leg contour, on axial slices within 2 cm proximal and distal to the PTV.\\ 
 Treatment planning of VMAT plans were performed on the Eclipse (versions 11 and 15) treatment planning system (TPS). For VMAT plans, a dose of 50 Gy (2 Gy/fraction) was prescribed to 95\% of the PTV. The VMAT plan consisted of either 2 or 3 arcs of 6 MV flattened photon beams delivered at different collimator angles. Only the Varian Millennium MLC was used. Patient doses were calculated with the Analytical Anisotropic Algorithm (AAA). \\
-
-\begin{table}[htb]
-    \centering
-    \caption{Dose constraints to OAR used for treatment planning and evaluation.}
-    \begin{tabular}{cc}
-        OAR & Dose constraint \\
-        \hline\hline
-        \multirow{2}{*}{Bone} & $D_\text{mean} < 37$ Gy \\
-            & $V_\text{40Gy} < 64\%$\\
-        \multirow{2}{*}{Femoral head} & $V_\text{60Gy} < 5\%$\\
-        & $D_\text{mean} < 40$ Gy \\
-        Joint & $V_\text{50Gy} < 50\%$\\
-        Normal tissue strip &  $V_\text{20Gy} < 50\%$\\
-        Skin & $D_\text{max}<51.5$ Gy\\
-        Anus & $V_\text{30Gy} < 50\%$\\
-        Genitalia & $V_\text{30Gy} < 50\%$\\
-        Testes & $V_\text{3Gy} < 50\%$\\
-    \end{tabular}
-    \label{tab:OARconstraints}
-\end{table}
 
 \subsection{MBRT planning}
 All patient plans and CT images were exported from Eclipse and imported to an in-house TPS \textit{Brems}. In this study, no MBRT plans made use of bolus. For VMAT plans that required bolus ($n$=10), a new CTV was cropped 2 mm from the skin to allow for buildup. 
